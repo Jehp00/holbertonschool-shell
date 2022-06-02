@@ -1,2 +1,2 @@
 #!/bin/bash
-cp find -name shell/basics/*.html* /shell 
+cp shell/basics/*.html* /shell 
