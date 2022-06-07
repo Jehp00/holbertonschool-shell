@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -c | sort   
+head 10 | tr -c | sort   
