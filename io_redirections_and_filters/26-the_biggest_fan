@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -c '[:alnum:]' '[\n*]' | sort | uniq -c | sort -nr | head  -10
+tr -cs A-Za-z '\n' | tr A-Z a-z | sort | uniq -c | sort -rn | sed 10q
