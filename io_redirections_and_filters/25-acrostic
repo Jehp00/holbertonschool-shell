@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -c ^[1] | head 10 | sort   
+tr -c ^[1] | cut -c |  head 10 | sort   
