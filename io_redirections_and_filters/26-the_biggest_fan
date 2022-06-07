@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -c '[:alnum:]' '[\n*]' < test.txt | sort | uniq -c | sort -nr | head  -10
+tr -c '[:alnum:]' '[\n*]' | sort | uniq -c | sort -nr | head  -10
