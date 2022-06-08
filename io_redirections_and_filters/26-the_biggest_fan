@@ -1,2 +1,2 @@
 #!/bin/bash
-head -10 | tr -c '[:alnum:]' '[\n*]' < *.tsv* | sort | uniq -c | sort -nr | rev 
+head -10 | cut -c '[:alnum:]' '[\n*]' < *.tsv* | sort | uniq -c | sort -nr | rev 
