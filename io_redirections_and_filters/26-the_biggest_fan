@@ -1,2 +1,2 @@
 #!/bin/bash
-head -10 | tar -c '[:alnum:]' '[\n*]' < .tsv | sort | uniq -c | sort -nr | rev 
+tar -c '[:alnum:]' '[\n*]' < '*.tsv*' | sort | uniq -c | sort -nr | head -n11 |  rev 
