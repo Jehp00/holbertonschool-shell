@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -c '[:alnum:]' '[\n*]' < *.tsv* | sort | uniq -c | sort -nr | head  11 
+find *.tsv* | tr '/' '\n'  | sort | uniq -c | sort -k1.1nr | head 11 – user732  
