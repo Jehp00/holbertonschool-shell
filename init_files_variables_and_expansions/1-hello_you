@@ -1,2 +1,2 @@
 #!/bin/bash
-u=id | echo "User name $u"
+u=id | echo "User name" $u
