@@ -1,2 +1,2 @@
 #!/bin/bash
-u=id | echo "User name" $u
+alias u=whoami | echo "Hello $u" 
