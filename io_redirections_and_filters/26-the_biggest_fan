@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n11 | cut -f=host | sort | rev | uniq -c | sort -n | rev 
+tr -c '[:alnum:]' '[\n*]' < *.TSV* | sort | uniq -c | sort -nr | head  -10 
