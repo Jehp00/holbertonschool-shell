@@ -1,2 +1,2 @@
 #!/bin/bash
-export NUM= echo printf "%.2f \n" 4.4444
+printf "%.2f \n" NUM
