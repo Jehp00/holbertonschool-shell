@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 #displays Best School 10 times.
-LIST="$(echo 'Best School')"
-for i in "$LIST"; do 
-	LIST2=$(i<11)
-	tac >> $(LIST2)
-done
+LIST="Best School"
+for i in "$LIST"; do echo $LIST ; done
