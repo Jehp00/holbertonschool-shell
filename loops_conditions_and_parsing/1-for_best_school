@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in 'echo "Best School"'; do cp "$i" 10; done
