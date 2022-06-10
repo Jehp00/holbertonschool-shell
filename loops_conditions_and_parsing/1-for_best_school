@@ -3,5 +3,5 @@
 LIST="$(echo 'Best School')"
 for i in "$LIST"; do 
 	LIST2=$(i<11)
-	cat $(LIST2)
+	tac >> $(LIST2)
 done
