@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #displays Best School 10 times.
-for ((n=10; n>0; n--); do
-	echo -n "$n"
-	printf '\n'
+for ((n=10; n>0; n--)
+do
+echo -n "$n"
 done
+printf "\n"
