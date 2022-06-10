@@ -1,2 +1,3 @@
-#!/bin/bash
-for i in 'echo "Best School"'; do cp "$i" 10; done
+#!/usr/bin/env bash
+#displays Best School 10 times.
+for i in echo $echo"Best School"; do cp "$i" 10; done
