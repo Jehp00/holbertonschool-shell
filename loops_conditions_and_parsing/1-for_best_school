@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #displays Best School 10 times.
-for ((counter='Best School'; counter > 0; counter --))
-do
-echo "$counter "
-printf "\n"
+for ((n=10; n>0; n--); do
+	echo -n "$n"
+	printf '\n'
 done
