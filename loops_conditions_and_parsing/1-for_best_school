@@ -3,6 +3,6 @@
 counter='Best School'
 for ((counter=10; counter > 0; counter --))
 do
-echo -n "$counter "
-done
+echo "$counter "
 printf "\n"
+done
