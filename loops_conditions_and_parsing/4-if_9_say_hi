@@ -5,7 +5,7 @@ while [ $i -gt 0 ]
 do
 	echo 'Best School'
 	((i--))
-if [ $i -eq 9 ]
+if [ $i -eq 1 ]
 then
 	echo 'Best School Hi'
 fi
