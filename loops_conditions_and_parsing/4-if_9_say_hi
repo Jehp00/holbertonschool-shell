@@ -8,6 +8,5 @@ do
 if [ $i -eq 1 ]
 then
 	echo 'Best School' 
-	printf "\n" 'Hi'
 fi
 done
