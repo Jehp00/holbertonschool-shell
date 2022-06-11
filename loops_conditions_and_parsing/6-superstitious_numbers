@@ -3,6 +3,12 @@
 i=20
 while [ $i -gt 0 ]
 do
-	echo {1..20}
-	((i--))
+	echo -n {1..$i}
+	((i++))
+case $i in 
+	"4") echo 'bad luck from China'
+	;;
+	"9") echo 'bad luck from Japan'
+	;;
+	"17") echo 'bad luck from Italy'
 done
