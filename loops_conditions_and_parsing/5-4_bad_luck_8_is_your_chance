@@ -11,7 +11,7 @@ echo 'good luck'
 elif [ $i -eq 1 ]
 then
 echo 'bad luck'
-else [ $i -le 0 ]
+else [ $i -gt 0 ]
 echo 'Best School'
 fi
 done
