@@ -11,7 +11,7 @@ echo 'good luck'
 elif [ $i -eq 2 ]
 then
 echo 'bad luck'
-else [ $i -eq 10 ]
+else [ $i -eq 11 ]
 then
 	break
 fi
