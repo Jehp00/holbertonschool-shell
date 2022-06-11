@@ -6,7 +6,7 @@ while [ $i -lt $b ]
 do
 	echo 'Best School'
 	((i++))
-if [ $i -eq 5 ]
+if [ $i -eq 6 ]
 then 
 	echo 'good luck'
 elif [ $i -eq 3 ]
