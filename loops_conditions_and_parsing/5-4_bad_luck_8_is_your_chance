@@ -13,6 +13,6 @@ elif [ $i -eq 2 ]
 then
 	echo 'bad luck'
 else [ $i -gt $b ]
-	return
+	break
 fi
 done
