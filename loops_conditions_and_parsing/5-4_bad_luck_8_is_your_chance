@@ -6,10 +6,10 @@ while [ $i -lt $b ]
 do
 	echo 'Best School'
 	((i++))
-if [ $i -eq 4 ]
+if [ $b -eq 4 ]
 then 
 	echo 'good luck'
-elif [ $i -eq 2 ]
+elif [ $b -eq 2 ]
 then
 	echo 'bad luck'
 else [ $i -gt $b ]
