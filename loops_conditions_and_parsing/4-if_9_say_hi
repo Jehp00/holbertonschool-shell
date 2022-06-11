@@ -7,6 +7,6 @@ do
 	((i--))
 if [ $i -eq 1 ]
 then
-	echo 'Best School Hi'
+	echo 'Best School' "\n" 'Hi'
 fi
 done
