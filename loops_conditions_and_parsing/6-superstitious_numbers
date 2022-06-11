@@ -3,7 +3,7 @@
 i=20
 while [ $i -gt 0 ]
 do
-	echo ({1..$i})
+	echo {1..20}
 	((i++))
 case $i in 
 	"4") echo 'bad luck from China'
