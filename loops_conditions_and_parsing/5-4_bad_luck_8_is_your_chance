@@ -11,7 +11,7 @@ echo 'good luck'
 elif [ $i -eq 6 ]
 then
 echo 'bad luck'
-else [ $i -lt 0 ]
+else [ $i -le 0 ]
 break
 fi
 done
