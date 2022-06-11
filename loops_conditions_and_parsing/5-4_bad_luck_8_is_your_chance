@@ -11,8 +11,8 @@ echo 'good luck'
 elif [ $i -eq 2 ]
 then
 echo 'bad luck'
-else [ $i -gt 0 ]
-echo 'Best School'
+else [ $i -eq 10 ]
+then
+	break
 fi
 done
-head 10
