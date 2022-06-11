@@ -8,7 +8,7 @@ do
 if [ $i -eq 2 ]
 then 
 echo 'good luck'
-elif [ $i -q 6 ]
+elif [ $i -eq 6 ]
 then
 echo 'bad luck'
 else [ $i ]
