@@ -11,7 +11,7 @@ then
 elif [ $i -eq 2 ]
 then
 	echo 'bad luck'
-else [ $i -eq 11 ]
+else
 	break
 fi
 done
