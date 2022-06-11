@@ -10,7 +10,7 @@ then
 echo 'good luck'
 elif [ $i -q 6 ]
 echo 'bad luck'
-else [$i -ne 2; $i -ne 6 ]
+else
 echo 'Best School'
 fi
 done
