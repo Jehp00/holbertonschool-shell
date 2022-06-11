@@ -8,4 +8,5 @@ do
 if [ $i -eq 9 ]
 then
 	echo 'Best School Hi'
+fi
 done
