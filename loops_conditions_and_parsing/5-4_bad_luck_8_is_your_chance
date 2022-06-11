@@ -5,9 +5,11 @@ while [ $i -lt 10 ]
 do
 	echo 'Best School'
 	((i++))
-if [ $i -eq 4 ] then 
+if [ $i -eq 4 ]
+then 
 	echo 'good luck'
-elif [ $i -eq 2 ] then
+elif [ $i -eq 2 ]
+then
 	echo 'bad luck'
 else [ $i -eq 11 ]
 	break
