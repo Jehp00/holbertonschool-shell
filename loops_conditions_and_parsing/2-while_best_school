@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #displays Best School 10 times.
-while [n=0;n<10;n++]
-	do
-	echo 'Best School'
-printfl "\n"
+i=10
+while [ $i -gt 0 ]
+do
+	echo 'Best School' $i
+	((i--))
+	sleep
 done
-
