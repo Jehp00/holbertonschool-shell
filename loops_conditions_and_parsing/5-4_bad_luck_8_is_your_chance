@@ -12,7 +12,7 @@ then
 elif [ $i -eq 2 ]
 then
 	echo 'bad luck'
-else
-	echo ''
+else [ $i -gt $b ]
+	return
 fi
 done
