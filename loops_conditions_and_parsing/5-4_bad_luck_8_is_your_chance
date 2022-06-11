@@ -8,10 +8,8 @@ do
 if [ $i -eq 2 ]
 then 
 echo 'good luck'
-fi
 elif [ $i -q 6 ]
 echo 'bad luck'
-fi
 else [$i -ne 2; $i -ne 6 ]
 echo 'Best School'
 fi
