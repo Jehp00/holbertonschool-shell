@@ -12,6 +12,6 @@ elif [ $i -eq 6 ]
 then
 echo 'bad luck'
 else [ $i -le 0 ]
-break
+echo 'Best School'
 fi
 done
