@@ -3,13 +3,13 @@
 num=1
 num=$((num+1))
 for num in {1..100}; do
-	if [ $((num % 3 == 0)) ]
+	if [ $((num % 3)) == 0 ]
 	then
 		echo 'Fizz'
-	elif [ $((num % 5 == 0)) ]
+	elif [ $((num % 5)) == 0 ]
 	then
 		echo 'Buzz'
-	elif [ $((num % 15 == 0)) ]
+	elif [ $((num % 15)) == 0 ]
 	then
 		echo 'FizzBuzz'
 	else
