@@ -12,6 +12,8 @@ do
 	then
 		echo 'Hola:' $j
 		j=$((i+1))
+	else
+	then
 		return $i
 	fi
 done
