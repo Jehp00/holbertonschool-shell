@@ -4,5 +4,5 @@ Write a Bash script that displays:
 List="$(ls)"
 for f in $List; 
 do
-	find ./ -name "$f" | rev | cut -d '/' -f1 | rev  
+	find ./ -type "$f" | rev | cut -f '/' -f1 | rev  
 done 
