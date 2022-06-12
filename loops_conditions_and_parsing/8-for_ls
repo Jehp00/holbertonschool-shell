@@ -4,5 +4,5 @@ Write a Bash script that displays:
 List="$(ls)"
 for n in $List; 
 do
-	printf '%s\n' "$n"	  
+	printf '%s\n' "$n" | cut -c 3- 	  
 done 
