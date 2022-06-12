@@ -8,7 +8,7 @@ do
 	then
 		echo $i
 		i=$((i+1))
-	elif [ $j -lt 12 ]
+	elif [ $j -eq 12 ]
 	then
 		echo 'Hola:' $j
 		j=$((i+1))
