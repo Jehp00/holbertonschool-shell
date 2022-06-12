@@ -2,5 +2,5 @@
 #displays the content of the file /etc/passwd, using the while loop + IFS.
 while IFS=: cut -d IFS -f 1,4,6,7,3,2,5;
       do 
-	echo $IFS
+	echo "$IFS"
 done	
