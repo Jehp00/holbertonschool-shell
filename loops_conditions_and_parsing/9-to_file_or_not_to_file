@@ -5,14 +5,16 @@ then
 	echo 'school file exists'
 else
 	echo 'school file does not exist'
-
-if [ -z $school ]
-then
-        echo 'school file is empty'
-else 
-	echo 'school file is not empty'
-
-if [ -f $school ]
-then
-	echo 'school is a regular file'
 fi
+if [ -e $school ]
+then
+	if [ -z $school ]
+	then
+        	echo 'school file is empty'
+	else 
+		echo 'school file is not empty'
+
+	if [ -f $school ]
+	then
+		echo 'school is a regular file'
+	fi
