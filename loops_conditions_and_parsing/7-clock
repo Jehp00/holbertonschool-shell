@@ -2,16 +2,19 @@
 #displays the time for 12 hours and 59 minutes.
 i=1
 j=1
-while [ $i -le 60 ][ $j -le 12 ]
+while [ $i -le 60 ]
 do
 	if [ $i -gt 59 ]
 	then
+		while [ $j -le 12 ] 
+		do
 		echo 'Hora:' $j
 		j=$((j+1))
+		done
 	else
 		echo $i
 		i=$((i+1))
-		echo 'Hora' $j
+		echo 'Hora:' $j
 	fi
 done
 		
