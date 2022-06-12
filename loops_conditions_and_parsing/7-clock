@@ -6,14 +6,11 @@ while [ $i -lt 59 ]
 do
 	if [ $i -gt 59 ]
 	then
-		echo $i
-		i=$((i+1))
-	elif [ $j -eq 12 ]
-	then
 		echo 'Hola:' $j
-		j=$((i+1))
+		j=$((j+1))
 	else
 		echo $i
+		i=$((i++))
 	fi
 done
 		
