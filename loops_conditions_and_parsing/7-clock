@@ -4,7 +4,7 @@ i=1
 j=1
 while [ $i -lt 59 ]
 do
-	if [ $i -eq 60 ]
+	if [ $i -gt 59 ]
 	then
 		echo $i
 		i=$((i+1))
