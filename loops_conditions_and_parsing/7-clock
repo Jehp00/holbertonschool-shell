@@ -13,7 +13,7 @@ do
 		echo 'Hola:' $j
 		j=$((i+1))
 	else
-		return $i
+		echo $i
 	fi
 done
 		
