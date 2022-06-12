@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays numbers from 1 to 100 and displays FizzBuzz and Fizz and Buzz.
-for num in range [ 1, 100 ]; do
+num=1
+num=$((num+1))
+for num in {1..100}; do
 	if [ $num % 5 == 0]
 	then
 		echo 'Buzz'
