@@ -13,8 +13,9 @@ then
         	echo 'school file is empty'
 	else 
 		echo 'school file is not empty'
-
+	fi
 	if [ -f $school ]
 	then
 		echo 'school is a regular file'
 	fi
+fi
