@@ -10,7 +10,7 @@ do
 		j=$((j+1))
 	else
 		echo $i
-		i=$((i++))
+		i=$((i+1))
 	fi
 done
 		
