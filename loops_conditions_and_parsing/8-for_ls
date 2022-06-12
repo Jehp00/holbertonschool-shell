@@ -4,5 +4,5 @@ Write a Bash script that displays:
 List="$(ls -Al)"
 for f in $List; 
 do
-	printf '%s\n' "$n"  
+	printf '%s\n' "$f"  
 done 
