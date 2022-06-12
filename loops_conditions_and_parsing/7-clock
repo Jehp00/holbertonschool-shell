@@ -12,9 +12,11 @@ do
 		do
 		echo 'Hora:' $j
 		j=$((j+1))
-		echo $i
-		i=$((i+1))
 		done
+	elif [ $j -gt 1 ]
+	then
+		echo $i
+		i=$((i+1))	
 	fi
 done
 		
