@@ -6,11 +6,12 @@ while [ $i -le 60 ]
 do
 	if [ $i -gt 59 ]
 	then
-		echo 'Hola:' $j
+		echo 'Hora:' $j
 		j=$((j+1))
 	else
 		echo $i
 		i=$((i+1))
+		echo 'Hora' $j
 	fi
 done
 		
