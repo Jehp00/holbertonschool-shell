@@ -2,7 +2,7 @@
 #Write a Bash script that displays: The content of the current directory In a list format Where only the part of the name after the first dash is displayed
 Write a Bash script that displays:
 List="$(ls)"
-for read $List; 
+for f in $List; 
 do
-	find ./  -printf "%f\n"  
+	printf '%s\f' "$f";  
 done 
