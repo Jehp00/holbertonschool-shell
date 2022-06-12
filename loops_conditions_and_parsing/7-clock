@@ -8,6 +8,7 @@ do
 	then
 		echo 'Hola:' $j
 		j=$((j+1))
+	else
 		echo $i
 		i=$((i+1))
 	fi
