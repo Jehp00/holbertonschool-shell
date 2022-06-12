@@ -11,10 +11,6 @@ do
 		echo 'Hora:' $j
 		j=$((j+1))
 		done
-	else
-		echo $i
-		i=$((i+1))
-		echo 'Hora:' $j
 	fi
 done
 		
