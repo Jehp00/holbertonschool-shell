@@ -3,5 +3,5 @@
 Write a Bash script that displays:
 List="$(ls)"
 for f in $List; do
-	echo $f \'$f\'
+	echo \'$f\'
 done 
