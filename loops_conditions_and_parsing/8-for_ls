@@ -3,5 +3,5 @@
 List="$(ls)"
 for n in $List; 
 do
-	printf '%s\n' "$n" | cut -d "-" 	  
+	printf '%s\n' "$n" | cut -d "-" -f 1
 done 
