@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #displays the content of the file /etc/passwd, using the while loop + IFS.
 FILENAME="/etc/passwd"
-while IFS=: read -r line
+Camps=["USERNAME", "GROUP_ID", "HOME_DIRECTORY", "COMMAND/SHELL", "USER ID", "PASSWORD", "USER ID INFO"]
+while IFS=: read -r $Camps
 do
   cut -d ":" -f 1,2,3,4,5,6,7,8,9
 done < $FILENAME
