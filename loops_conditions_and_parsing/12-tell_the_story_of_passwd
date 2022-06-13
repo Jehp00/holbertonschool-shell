@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #displays the content of the file /etc/passwd, using the while loop + IFS.
-while IFS= read -r -d $'\0' file
+while IFS= read -r -d $'\0' /etc/passwd
 do
     cat /etc/passwd
 done
