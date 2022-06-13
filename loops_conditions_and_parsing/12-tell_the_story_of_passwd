@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #displays the content of the file /etc/passwd, using the while loop + IFS.
-while IFS=':' read f1 f2 f3 f4 f5 f6 f7 f8 f9 /etc/passwd
+Fielname="/etc/passwd"
+while IFS=: read -r Username GID Home directory Command/shell UID Password GECOS
 do
-	echo "$f9"
-done
+	echo "$Username $GID $Home $directory $Commandshell $UID $Password $GECOS"
+done < $Fielname
