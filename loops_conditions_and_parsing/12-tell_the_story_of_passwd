@@ -2,5 +2,5 @@
 #displays the content of the file /etc/passwd, using the while loop + IFS.
 while IFS= read -r -d $'\0' file
 do
-    echo '=this   is a test='
+    cat /etc/passwd
 done
