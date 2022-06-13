@@ -2,7 +2,7 @@
 #displays the content of the file /etc/passwd, using the while loop + IFS.
 FILENAME="/etc/passwd"
 line="f1\"f2\"f3\"f4\"f5\"f6\"f7"
-while IFS= read -r "$line"
+while IFS= read -r line
 do
   echo "$line"
 done < $FILENAME
