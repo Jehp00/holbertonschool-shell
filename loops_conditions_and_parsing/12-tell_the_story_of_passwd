@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #displays the content of the file /etc/passwd, using the while loop + IFS.
-FILENAME="/etc/passwd"
-line="f1\"f2\"f3\"f4\"f5\"f6\"f7"
-while IFS=: read -r line
+FILENAME="/etc/passwd/"
+while IFS=: read -r USERNAME GROUP_ID HOME_DIRECTORY COMMAND/SHELL USER ID PASSWORD USER ID INFO
 do
-  echo "$line"
+	echo "$USERNAME, $PASSWORD, $USER_ID, $USER_ID_INFO, $HOME_DIRECTORY, $COMMAND\/\S\H\E\L\L"
 done < $FILENAME
