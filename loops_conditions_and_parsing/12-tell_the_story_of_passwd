@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #displays the content of the file /etc/passwd, using the while loop + IFS.
-line= echo "= this   is a test =" | while IFS= read -r $line 
-do 
-	echo $line
+cat /etc/passwd | echo " this   is a test " | while IFS= read -r line;
+do
+	echo "==$line="
 done
