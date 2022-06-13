@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #displays the content of the file /etc/passwd, using the while loop + IFS.
-while IFS=':' read -r -f 1,2,3,4,5,6,7,8,9 /etc/passwd
+Content="$(read -r)"
+while [ "$Content" ] 
 do
-	echo "$f9"
+	IFS=':' -f1,2,3,4,5,6,7,8,9 /etc/passwd
 done
