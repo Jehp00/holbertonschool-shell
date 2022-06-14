@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Stop the process in the previous task
-killing_pid = $(pgrep -l "/bash" | cut -d' ' -f1 | grep '4-to_infinity'
+killing_pid = $(grep -l 'bash' | cut -d'' -f2 | pgrep '4-to_infinity'
 kill $killing_pid
