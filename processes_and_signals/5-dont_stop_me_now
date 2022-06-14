@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Kill the previos process
-kill "$(pgrep -a "bash" | grep "4-to_infinity_and_beyond" | cut -d' ' -f1)"
+killing_pid= "$(pgrep -a "bash" | grep $4-to_infinity_and_beyond | cut -d' ' -f1)"
+kill "$killing_pid"
