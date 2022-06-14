@@ -2,5 +2,6 @@
 #displays the content of the file /etc/passwd, using the while loop + IFS.
 while IFS=: read -r -f1,2,3,4,5,6,7 /etc/passwd
 do
-	echo The user "$1" is part of the "$4" gang, lives in "$6" and rides "$7". "$3"s place is protected by the passcode "$2", more info about the user here: "$5"
+	echo The user "$1" is part of the "$4" gang, lives in "$6" and rides "$7". "$3"s place is protected by the passcode "$2", more info about the user here: "$5" 
+	cut -c "The user is part of the gang, lives in and rides . s place is protected by the passcode , more info about the user here:"
 done
