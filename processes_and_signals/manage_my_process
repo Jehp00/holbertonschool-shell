@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # process to practice process management
-i=0
-while [ $i ]; do
-      echo 'I am alive!' >> /tmp/my_process
-      sleep 2
+while true
+do
+    sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
+    sleep 2
 done
